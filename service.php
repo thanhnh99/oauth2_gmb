@@ -28,7 +28,7 @@ class Oauth2Service
             $refresh_token = $client->getRefreshToken();
             $access_token = $client->refreshToken($refresh_token);
         }
-        return $access_token["expires_in"];
+        return $access_token;
     }
 
     public function getRefreshToken($client)
@@ -39,13 +39,6 @@ class Oauth2Service
 
     public function getLongLivedAccessToken($client)
     {
-        $refresh_token = $client->getRefreshToken();
-        if(isset($refresh_token))
-        {
-            $access_token = $client->fetchAccessTokenWithRefreshToken($refresh_token);
-            $_SESSION["access_token"] = $access_token;
-            return $access_token["expires_in"];
-        }
-        return null;
+
     }
 }
