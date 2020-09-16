@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acd9df9c-9940-427b-9bce-e8f5d8b43efc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hMRshNsADMpXeclUrlKEWylSb8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/webappclone" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\oauth2_gmb" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acd9df9c-9940-427b-9bce-e8f5d8b43efc" name="Default Changelist" comment="" />
+      <created>1599819183690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599819183690</updated>
+      <workItem from="1599819184897" duration="4024000" />
+      <workItem from="1600051448874" duration="9599000" />
+      <workItem from="1600137913252" duration="1124000" />
+      <workItem from="1600139313759" duration="9814000" />
+      <workItem from="1600225838315" duration="7955000" />
+      <workItem from="1600236904938" duration="6824000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="509" y="195" key="#CLI_Interpreters" timestamp="1599819317416">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="509" y="195" key="#CLI_Interpreters/0.0.1858.1080@0.0.1858.1080" timestamp="1599819317416" />
+    <state x="739" y="419" key="#Composer" timestamp="1600051462076">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="739" y="419" key="#Composer/0.0.1858.1080@0.0.1858.1080" timestamp="1600051462076" />
+    <state x="705" y="452" width="447" height="265" key="ComposerInitDialogKey" timestamp="1600053958482">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="705" y="452" width="447" height="265" key="ComposerInitDialogKey/0.0.1858.1080@0.0.1858.1080" timestamp="1600053958482" />
+    <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1599820847906">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="709" y="295" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1599820847906" />
+    <state x="741" y="263" key="NewPhpClassDialog" timestamp="1600240665051">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="741" y="263" key="NewPhpClassDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600240665051" />
+    <state x="763" y="463" key="NewPhpFileDialog" timestamp="1600240686548">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="763" y="463" key="NewPhpFileDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600240686548" />
+    <state x="430" y="185" key="SettingsEditor" timestamp="1599819557867">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="430" y="185" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1599819557867" />
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600231579656">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600231579656" />
+  </component>
+</project>
