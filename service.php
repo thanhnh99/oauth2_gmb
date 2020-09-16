@@ -22,10 +22,9 @@ class Oauth2Service
     public function getReAccessToken($client)
     {
         $access_token = $client->getAccessToken();
-
         if($client->isAccessTokenExpired())
         {
-            $refresh_token = $client->getRefreshToken();
+            $refresh_token = $_SESSION["refresh_token"];
             $access_token = $client->refreshToken($refresh_token);
         }
         return $access_token;
