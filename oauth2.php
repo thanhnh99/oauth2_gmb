@@ -10,6 +10,10 @@ class  Oauth2GMB
         $this->client->setApprovalPrompt ("force");
         $this->client->setAuthConfig('./code_secret_client.json');
         $this->client->addScope("https://www.googleapis.com/auth/business.manage");
+        if(isset($_SESSION["access_token"]))
+        {
+            $this->client->setAccessToken($_SESSION["access_token"]);
+        }
     }
 
     public function oauth2()
@@ -19,38 +23,10 @@ class  Oauth2GMB
             header('Location: ' . filter_var($auth_url, FILTER_SANITIZE_URL));
         } else {
             $this->client->authenticate($_SESSION['code']);
-            $_SESSION["access_token"] = $this->getAccessToken();
-            $_SESSION["refresh_token"] = $this->getRefreshToken();
+            $_SESSION["access_token"] = $this->client->getAccessToken();
+            $_SESSION["refresh_token"] = $this->client->getRefreshToken();
+            $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'];
+            header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
         }
-    }
-
-    public function getAccessToken()
-    {
-        $access_token = $this->client->getAccessToken();
-
-        if($this->client->isAccessTokenExpired())
-        {
-            $refresh_token = $this->client->getRefreshToken();
-            $access_token = $this->client->refreshToken($refresh_token);
-        }
-        return $access_token;
-    }
-
-    public function getRefreshToken()
-    {
-        return $this->client->getRefreshToken();
-    }
-
-
-    public function getLongLivedAccessToken()
-    {
-        $refresh_token = $this->client->getRefreshToken();
-        if($refresh_token)
-        {
-            $access_token = $this->client->fetchAccessTokenWithRefreshToken($refresh_token);
-            $_SESSION["access_token"] = $access_token;
-            return $access_token;
-        }
-        return null;
     }
 }

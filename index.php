@@ -5,13 +5,16 @@ require './service.php';
 
 session_start();
 $oauth = new Oauth2GMB();
-if(!isset($_GET["access_token"]))
+if(!isset($_SESSION["access_token"]))
 {
     $oauth->oauth2();
 }
 else
 {
     $oauth2Service = new Oauth2Service();
-    $oauth2Service->getAccount($oauth->client);
-
+//    $oauth2Service->getAccount($oauth->client);
+//    var_dump($oauth->client->getAccessToken());
+    echo($oauth2Service->getReAccessToken($oauth->client));
+    echo "\n";
+    echo($oauth2Service->getLongLivedAccessToken($oauth->client));
 }
