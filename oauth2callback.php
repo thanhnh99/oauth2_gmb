@@ -3,6 +3,6 @@ session_start();
 if(isset($_GET["code"]))
 {
     $_SESSION["code"] = $_GET["code"];
-    $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'];
+    $redirect_uri = 'http://' . $_SERVER['HTTP_HOST']. "/process.php";
     header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
 }
