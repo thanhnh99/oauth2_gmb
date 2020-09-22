@@ -5,4 +5,4 @@ npm-debug.log
 /node_modules
 /vendor
 /idea
-./code_secret_client.json
+code_secret_client.json
