@@ -7,6 +7,11 @@ session_start()
             Oauth2
         </a>
     </button>
+    <button>
+        <a href="http://localhost:8080/refresh_token.php">
+            Refresh Token
+        </a>
+    </button>
 </div>
 <lable>
     <div>
@@ -15,14 +20,4 @@ session_start()
         echo var_dump($_SESSION['access_token'])
         ?>
     </div>
-</lable>
-
-<div>
-    <button>
-        Refresh Token
-    </button>
-</div>
-
-<lable>Access Token:
-    {{$_SESSION['access_token']}}
 </lable>

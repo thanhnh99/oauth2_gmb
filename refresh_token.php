@@ -11,6 +11,8 @@ if(!isset($_SESSION["access_token"]))
 }
 else
 {
+    $oauth2Service = new Oauth2Service();
+    $_SESSION["access_token"] = $oauth2Service->getReAccessToken($oauth->client);
     $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'];
     header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
 }
