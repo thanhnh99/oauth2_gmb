@@ -15,9 +15,16 @@ session_start()
 </div>
 <lable>
     <div>
-        Access Token:
         <?php
-        echo var_dump($_SESSION['access_token'])
+        if(!isset($_SESSION['access_token']))
+        {
+            echo "None access_token";
+        }
+        else
+        {
+            echo "Access Token: ";
+            echo var_dump($_SESSION['access_token']);
+        }
         ?>
     </div>
 </lable>
