@@ -12,7 +12,6 @@ if(!isset($_SESSION["access_token"]))
 else
 {
     $oauth2_service = new Oauth2Service();
-    var_dump($oauth2_service->getReAccessToken($oauth->client));
-    echo "\n";
-    var_dump($oauth2_service->getLongLivedAccessToken($oauth->client));
+    $oauth2_service->getReAccessToken($oauth->client);
+    $oauth2_service->getLongLivedAccessToken($oauth->client);
 }
