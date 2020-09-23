@@ -16,9 +16,14 @@ session_start()
 <lable>
     <div>
         <?php
+        var_dump($_GET);
         if(!isset($_SESSION['access_token']))
         {
             echo "None access_token";
+            if(isset($_SESSION["error"]))
+            {
+                echo $_SESSION["error"];
+            }
         }
         else
         {

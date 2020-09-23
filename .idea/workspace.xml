@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="acd9df9c-9940-427b-9bce-e8f5d8b43efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oauth2callback.php" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2callback.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process.php" beforeDir="false" afterPath="$PROJECT_DIR$/process.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +37,9 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -64,11 +90,24 @@
       <workItem from="1600139313759" duration="9814000" />
       <workItem from="1600225838315" duration="7955000" />
       <workItem from="1600236904938" duration="14088000" />
+      <workItem from="1600774675618" duration="19000" />
+      <workItem from="1600830431744" duration="4423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="195" key="#CLI_Interpreters" timestamp="1599819317416">
@@ -91,10 +130,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="741" y="263" key="NewPhpClassDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600761370923" />
-    <state x="763" y="463" key="NewPhpFileDialog" timestamp="1600761381007">
+    <state x="763" y="463" key="NewPhpFileDialog" timestamp="1600830447350">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="763" y="463" key="NewPhpFileDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600761381007" />
+    <state x="763" y="463" key="NewPhpFileDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600830447350" />
     <state x="430" y="185" key="SettingsEditor" timestamp="1599819557867">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
