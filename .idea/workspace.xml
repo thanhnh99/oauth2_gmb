@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acd9df9c-9940-427b-9bce-e8f5d8b43efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth2callback.php" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2callback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process.php" beforeDir="false" afterPath="$PROJECT_DIR$/process.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <workItem from="1600225838315" duration="7955000" />
       <workItem from="1600236904938" duration="14088000" />
       <workItem from="1600774675618" duration="19000" />
-      <workItem from="1600830431744" duration="4423000" />
+      <workItem from="1600830431744" duration="6306000" />
     </task>
     <servers />
   </component>
